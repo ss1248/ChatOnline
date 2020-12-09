@@ -4,6 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Servlet</servlet-name>
+    <servlet-class>com.hlhmth.controller.Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/servlet</url-pattern>
+  </servlet-mapping>
 
   <!--设置session默认注销时间-->
   <session-config>
