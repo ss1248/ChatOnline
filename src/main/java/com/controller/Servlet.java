@@ -1,10 +1,11 @@
-package com.hlhmth.controller;
+package com.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 
 public class Servlet extends javax.servlet.http.HttpServlet {
-    protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+    protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response)
+            throws javax.servlet.ServletException, IOException {
         super.doGet(request, response);
     }
 
